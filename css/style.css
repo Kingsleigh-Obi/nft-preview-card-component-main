@@ -1,0 +1,237 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    flex-direction: column;
+}
+
+
+.container
+{
+    background-color: hsl(216, 50%, 16%);
+    width: 25%;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.image-box img
+{
+    width: 100%;   
+    border-radius: 10px;
+}
+
+.image-box
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.equilibrium-number
+{
+    color: hsl(0, 0%, 100%);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+}
+
+.equilibrium-function
+{
+    color: #8BACD9;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;  
+    font-weight: 300; 
+}
+
+.figure-data
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.ethirium
+{
+    color: #00FFF8;
+    margin-right: 80px;
+}
+
+.days-left
+{
+    color: #8BACD9;
+    font-weight: 300;
+}
+
+svg
+{
+    position: relative;
+    top: 2px;
+}
+
+hr
+{
+    border: solid hsl(215, 32%, 27%) 1px;
+}
+
+.creator-info
+{
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.creator-info img
+{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.creator-name
+{
+    margin-top: 5px;
+    color: #8BACD9;
+    font-weight: 300;
+}
+
+.jules
+{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+p
+{
+    font-size: 15px;
+}
+
+.attribution
+{
+    color: white;
+    
+}
+
+/* For the mobile view */
+
+@media(max-width: 418px)
+{
+    .container
+    {
+        background-color: hsl(216, 50%, 16%);
+        width: 80%;
+        height: 75%;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .image-box img
+    {
+        width: 100%;  
+        height: 100%; 
+        border-radius: 10px;
+    }
+
+    .image-box
+    {
+        width: 85%;
+        height: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .equilibrium-number
+    {
+        color: hsl(0, 0%, 100%);
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 600;
+    }
+
+    .equilibrium-function
+    {
+        color: #8BACD9;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;  
+        font-weight: 300; 
+        margin-bottom: 20px;
+    }
+
+    .figure-data
+    {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;   
+        margin-bottom: 20px;
+    }
+
+    .ethirium
+    {
+        color: #00FFF8;
+        margin-right: 80px;
+    }
+
+    .days-left
+    {
+        color: #8BACD9;
+        font-weight: 300;
+    }
+
+    svg
+    {
+        position: relative;
+        top: 2px;
+    }
+
+    hr
+    {
+        border: solid hsl(215, 32%, 27%) 1px;
+    }
+
+    .creator-info
+    {
+        display: flex;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .creator-info img
+    {
+        height: 50px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .creator-name
+    {
+        margin-top: 20px;
+        color: #8BACD9;
+        font-weight: 300;
+    }
+
+    .jules
+    {
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+    }
+
+    p
+    {
+        font-size: 18px;
+    }
+
+}
